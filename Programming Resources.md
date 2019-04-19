@@ -86,7 +86,7 @@ Python from Python.org comes with a package manager called PIP, used for install
 
 ### DO NOT INSTALL ANADCONDA PYTHON
 
-- I cannot stress this enough, do **not** do it! If you do, you will be told to undo it. 
+- We cannot stress this enough, do **not** do it! If you do, you will be told to undo it. 
 - Anaconda over the years has caused us nothing but grief and frustration.
   - It uses different and contradicting version numbers.
   - It distributes its own package manager and its own version of common packages, again with confusing and contradicting version numbers. 
