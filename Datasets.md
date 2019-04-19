@@ -71,7 +71,7 @@ Small scale but high quality (polycount) datasets of 3D models useful for testin
 
 | Dataset                                                   | Description                                                  | Link                                                      |
 | :-------------------------------------------------------- | :----------------------------------------------------------- | :-------------------------------------------------------- |
-| The Stanford 3D Scanning Repository                       | High resolution 3D meshes created via laser scanning of figurines. Meshes are raw from scan and may require clean up! **Rendering a mesh with holes using a glass shader will allow light to leak out of the mesh without scatter properly.** | http://graphics.stanford.edu/data/3Dscanrep/              |
+| The Stanford 3D Scanning Repository                       | High resolution 3D meshes created via laser scanning of figurines. Meshes are raw from scan and may require clean up! **Rendering a mesh with holes using a glass shader will allow light to leak out of the mesh without scattering properly.** | http://graphics.stanford.edu/data/3Dscanrep/              |
 | McGuire Computer Graphics Archive                         | High quality curated models and scenes with texture and bump maps. | http://casual-effects.com/data/                           |
 | Keenan's 3D Model Repository (Carnegie Mellon University) | Nice toy meshes and the occasional high resolution laser scan. | https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/ |
 | Large Geometric Models Archive (Georgia Tech)             | More high resolution scans.                                  | https://www.cc.gatech.edu/projects/large_models/          |
