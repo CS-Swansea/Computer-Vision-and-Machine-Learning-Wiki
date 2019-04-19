@@ -1,14 +1,20 @@
 [Go Back to Index Page](./README.md)
 
-# How to find papers online, without getting stuck behind a paywall
+# How to find papers online
+
+### without getting stuck behind a paywall...
 
 Getting access to scientific papers online can be tricky. Here are some tips and resources to help you with your literature review and staying up to date with new developments. 
+
+
 
 ## Tunnel your internet connection via the university internet
 
 The university has subscriptions to all major journals meaning if you are physically accessing the internet from the university paywalls seemingly vanish. 
 
 If you are working from outside of the university then connecting to an on-campus machine via remote desktop (RDP, teamviewer, ect) or via port forwarding (ssh, ssh tunnel, ect) can allow you to access papers that would otherwise be behind a paywall. 
+
+
 
 ## Find a direct PDF link to the paper
 
