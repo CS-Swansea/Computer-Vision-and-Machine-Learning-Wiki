@@ -23,6 +23,10 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
   
     A list academic papers and literature pertaining to machine learning research that should be considered **required reading** for all students starting ML projects.
   
+  - [Programming Resources.md](./Programming%20Resources.md) 
+  
+    How to setup and configure the software, languages, packages, and environment to do ML research.
+  
   - [Datasets.md](./Datasets.md) 
   
     A curated list of interesting datasets and resources for finding datasets that are useful for machine learning and computer graphics projects.
