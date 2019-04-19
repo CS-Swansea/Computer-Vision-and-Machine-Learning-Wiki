@@ -109,12 +109,14 @@ If you have an NVidia GPU then you should install the CUDA driver to allow your 
 - Update your NVidia GPU Display Driver to a version at least **410.x**. 
   - Latest is best!
 - Install CUDA **10.0** 
+  - Download from here: https://developer.nvidia.com/cuda-10.0-download-archive
   - Stood for "Compute Unified Device Architecture"
     - Although NVidia now claim the acronym stands for nothing...
   - **10.0** is the **exact and only** version [accepted by the latest version of Tensorflow 2.x library](https://www.tensorflow.org/install/gpu).
     - Do not install any other version. 
     - Do not install multiple different versions of CUDA at the same time.
 - Install CUDNN **7.4.1 (or later)**
+  - Download from here: <https://developer.nvidia.com/rdp/cudnn-download>
   - Stands for "CUDA Deep Neural Network Library"
   - Requires you to sign into the NVidia Developer Network on their website to download it. Signup is free.  
   - Make sure you download a version "**For CUDA 10.0**".
