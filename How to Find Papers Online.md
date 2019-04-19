@@ -1,3 +1,5 @@
+[Go Back to Index Page](./README.md)
+
 # How to find papers online, without getting stuck behind a paywall
 
 Getting access to scientific papers online can be tricky. Here are some tips and resources to help you with your literature review and staying up to date with new developments. 

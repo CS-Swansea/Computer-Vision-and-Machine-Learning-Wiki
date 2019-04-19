@@ -1,3 +1,5 @@
+[Go Back to Index Page](./README.md)
+
 # Datasets
 
 This page includes a list of curated publicly available datasets for machine learning and computer graphics research projects.

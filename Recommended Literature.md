@@ -1,3 +1,5 @@
+[Go Back to Index Page](./README.md)
+
 # Recommended Literature
 
 This page contains a list academic papers and literature pertaining to machine learning research that should be considered **required reading** for all students starting ML projects.
