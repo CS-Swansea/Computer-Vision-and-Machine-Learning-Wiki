@@ -76,19 +76,19 @@ You may need to use `pip3` instead of `pip` if you have both Python 2.x and Pyth
 ### Please install the following packages to get started
 
 ```bash
-pip install numpy matplotlib jupyter-lab pandas h5py scikit-learn scikit-image scikit-optimize
+pip install numpy matplotlib jupyterlab pandas h5py scikit-learn scikit-image scikit-optimize
 ```
 
-| Package         | Description                                                  |
-| :-------------- | :----------------------------------------------------------- |
-| numpy           | A CPU-side mathematics framework. **It is vital you know how to write efficient Numpy code.** |
-| matplotlib      | A graph plotting and visualization library. Use this for creating plots and figures for your papers, and also for visually debugging the results of your models and code. |
-| jupyter-lab     | An IDE which runs locally on the command line but launches in the webbrowser for its GUI. Perfect for the type of development and prototyping we need to do for ML research. |
-| pandas          | A library for parsing and processing tabular data such as `.csv` files. |
-| h5py            | A python wrapper library around the HDFS (Highly Distributed File System) protocol. Use this to save and load large amounts of data efficiently from disk. |
-| scikit-learn    | A python framework with many different machine learning algorithms implemented efficiently for CPU execution. |
-| scikit-image    | A python framework with many image processing algorithms and functions implemented efficiently for CPU execution. |
-| scikit-optimize | A python framework with many different optimization algorithms implemented efficiently for CPU execution. |
+| Package         | Description                                                  | Documentation                        |
+| :-------------- | :----------------------------------------------------------- | ------------------------------------ |
+| numpy           | A CPU-side mathematics framework. **It is vital you know how to write efficient Numpy code.** | <https://www.numpy.org/>             |
+| matplotlib      | A graph plotting and visualization library. Use this for creating plots and figures for your papers, and also for visually debugging the results of your models and code. | <https://matplotlib.org/>            |
+| jupyterlab      | An IDE which runs locally on the command line but launches in the webbrowser for its GUI. Perfect for the type of development and prototyping we need to do for ML research. | <https://jupyter.org/>               |
+| pandas          | A library for parsing and processing tabular data such as `.csv` files. | <https://pandas.pydata.org/>         |
+| h5py            | A python wrapper library around the HDFS (Highly Distributed File System) protocol. Use this to save and load large amounts of data efficiently from disk. | <https://www.h5py.org/>              |
+| scikit-learn    | A python framework with many different machine learning algorithms implemented efficiently for CPU execution. | <https://scikit-learn.org/stable/>   |
+| scikit-image    | A python framework with many image processing algorithms and functions implemented efficiently for CPU execution. | <https://scikit-image.org/>          |
+| scikit-optimize | A python framework with many different optimization algorithms implemented efficiently for CPU execution. | <https://scikit-optimize.github.io/> |
 
 ### DO NOT INSTALL ANADCONDA PYTHON
 
@@ -122,7 +122,7 @@ If you have an NVidia GPU then you should install the CUDA driver to allow your 
 
 ## Tensorflow 
 
-Tensorflow is a mathematics framework developed by Google designed for machine learning. In ML we often need to compute the derivative of a function with respect to its output, for a given input. We use this in many places but most commonly we use derivatives to compute how much to modify each of our model's weights by in order to make the model slightly better at its given task. By updating the weights by small amount many thousands of times we march the set of weights towards an optimum configuration. 
+[Tensorflow](https://www.tensorflow.org/) is a mathematics framework developed by Google designed for machine learning. In ML we often need to compute the derivative of a function with respect to its output, for a given input. We use this in many places but most commonly we use derivatives to compute how much to modify each of our model's weights by in order to make the model slightly better at its given task. By updating the weights by small amount many thousands of times we march the set of weights towards an optimum configuration. 
 
 That is, we learn what the true value of the weights should be through optimization against an objective function. 
 
