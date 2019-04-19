@@ -8,7 +8,7 @@ We use Interactive Python Notebooks (`.ipynb` files) in the form of [Jupyter Not
 
 - [Python](#python)
   - [PIP - Python Package Manager](#pip---the-python-package-manager)
-  - [Recommened Packages](#)
+  - [Recommened Packages](#please-install-the-following-packages-to-get-started)
 - [CUDA and CUDNN](#cuda-and-cudnn)
 - [Tensorflow 2.0](#tensorflow)
 
