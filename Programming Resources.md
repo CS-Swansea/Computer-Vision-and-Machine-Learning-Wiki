@@ -127,6 +127,8 @@ If you have an NVidia GPU then you should install the CUDA driver to allow your 
 
 That is, we learn what the true value of the weights should be through optimization against an objective function. 
 
+[**Demo - Using TF 2.0 to train an image classifier for images of hand written digits.**](./code/TF2-MNIST-Classifier.ipynb)
+
 Tensorflow is designed to be hardware agnostic, which means that regardless of whether you are on a laptop or a desktop or a server, or whether you have GPUs or just a CPU, your Tensorflow code written in Python looks the same. If the same code is run on a different machine with different hardware it will naturally make use of the different hardware to accelerate the computation. **GPU support requires CUDA to be installed!**
 
 ### Caveat on Tensorflow 2.0
