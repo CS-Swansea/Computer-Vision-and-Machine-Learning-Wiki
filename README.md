@@ -7,7 +7,15 @@ A surge in comercial and academic interest in the field of machine learning has 
 
 Without a proper understanding of the theory behind ML algorithms, debugging models derived from existing work, designing new models, and tuning their performance becomes an operation on a "black box". In order to be successful in ML research you must strive to gain a deeper understanding into how and why the ML algorithms we have work the way they do, and through this gain intuition into how we should build and improve upon these methods.
 
----
+------
+
+
+
+## Demo Code
+
+- [Using Tensorflow 2.0 to train an MLP image classifier for images of hand written digits.](./code/TF2-MNIST-Classifier.ipynb)
+
+
 
 ## Index
 
@@ -30,4 +38,3 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
   - [Datasets.md](./Datasets.md) 
   
     A curated list of interesting datasets and resources for finding datasets that are useful for machine learning and computer graphics projects.
-
