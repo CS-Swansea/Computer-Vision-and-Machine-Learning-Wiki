@@ -75,6 +75,10 @@ You may need to use `pip3` instead of `pip` if you have both Python 2.x and Pyth
 
 ### Please install the following packages to get started
 
+```bash
+pip install numpy matplotlib jupyter-lab pandas h5py scikit-learn scikit-image scikit-optimize
+```
+
 | Package         | Description                                                  |
 | :-------------- | :----------------------------------------------------------- |
 | numpy           | A CPU-side mathematics framework. **It is vital you know how to write efficient Numpy code.** |
