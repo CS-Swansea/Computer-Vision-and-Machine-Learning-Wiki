@@ -39,6 +39,8 @@ Please just install the latest version of Python 3.x from Python.org.
 
 Python from Python.org comes with a package manager called PIP, used for installing and upgrading Python libraries and packages. PIP is run from the command line and is very simple to use.
 
+You may need to use `pip3` instead of `pip` if you have both Python 2.x and Python 3.x installed on your system. We need to install our packages for the correct version of Python that is installed!
+
 - To see all currently installed packages
 
   ```bash
@@ -122,6 +124,8 @@ That is, we learn what the true value of the weights should be through optimizat
 
 Tensorflow is designed to be hardware agnostic, which means that regardless of whether you are on a laptop or a desktop or a server, or whether you have GPUs or just a CPU, your Tensorflow code written in Python looks the same. If the same code is run on a different machine with different hardware it will naturally make use of the different hardware to accelerate the computation. **GPU support requires CUDA to be installed!**
 
+### Caveat on Tensorflow 2.0
+
 First introduced in 2015, Tensorflow has now hit version 2.0 which brings with it many changes that fundamentally break older code. **Tensorflow 1.x and 2.x are essentially completely different frameworks**. 
 
 Code and tutorials that you find online for older versions of Tensorflow will look different, behave differently, and in many cases will not be valid code in 2.x. Do not be surprised by this, just pay attention to what you are looking at. The message and knowledge that was being conveyed is likely similar and still relevant, even if the code is not directly applicable. 
@@ -141,5 +145,3 @@ Code and tutorials that you find online for older versions of Tensorflow will lo
     ```bash
     pip install tensorflow-gpu==2.0.0-alpha0
     ```
-
-  - You may need to use `pip3` instead of `pip` if you have both Python 2.x and Python 3.x installed on your system. 
