@@ -14,7 +14,9 @@ Resources available online which reference to freely available literature.
 
 - [Alexander Jung's repository of paper summaries](https://github.com/aleju/papers)
 
-  A researcher has been compiling a github repository of summaries of the literature they read. Consistent formatting, accurate and meaningful summaries, sensible curation of the reported results and figures. As an example here is a [summary of the Wide Residual Networks Paper (2016)](https://github.com/aleju/papers/blob/master/neural-nets/Wide_Residual_Networks.md). 
+  A researcher has been compiling a github repository of summaries of the literature they read. Consistent formatting, accurate and meaningful summaries, sensible curation of the reported results and figures. 
+
+  - As an example here is a [summary of the Wide Residual Networks Paper (2016)](https://github.com/aleju/papers/blob/master/neural-nets/Wide_Residual_Networks.md). 
 
   - The intention here is NOT to avoid reading the described paper, but to introduce yourself to the concepts at play to preempt the terseness of the full paper.
 
