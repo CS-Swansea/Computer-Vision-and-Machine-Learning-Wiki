@@ -9,16 +9,22 @@ This page contains a list academic papers and literature pertaining to machine l
 Resources available online which reference to freely available literature. 
 
 - [9 Seminal Deep Learning Papers](https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html)
-Seminal works on CNN development with a focus on image classification, segmentation, and object localization. These are the core methods that newer state-of-the-art methods all build off of. **Read all of these.**
+
+  Seminal works on CNN development with a focus on image classification, segmentation, and object localization. These are the core methods that newer state-of-the-art methods all build off of. **Read all of these.**
 
 - [Alexander Jung's repository of paper summaries](https://github.com/aleju/papers)
-A researcher has been compiling a github repository of summaries of the literature they read. Consistent formatting, accurate and meaningful summaries, sensible curation of the reported results and figures. As an example here is a [summary of the Wide Residual Networks Paper (2016)](https://github.com/aleju/papers/blob/master/neural-nets/Wide_Residual_Networks.md). The intention here is NOT to avoid reading the described paper, but to introduce yourself to the concepts at play to prempt the terseness of the full paper.
+
+  A researcher has been compiling a github repository of summaries of the literature they read. Consistent formatting, accurate and meaningful summaries, sensible curation of the reported results and figures. As an example here is a [summary of the Wide Residual Networks Paper (2016)](https://github.com/aleju/papers/blob/master/neural-nets/Wide_Residual_Networks.md). 
+
+  - The intention here is NOT to avoid reading the described paper, but to introduce yourself to the concepts at play to preempt the terseness of the full paper.
 
 - [Deep Learning Field Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
-Cited chronology of highly influential papers in different sub-fields with download links to pdf's.
+
+  Cited chronology of highly influential papers in different sub-fields with download links to pdf's.
 
 - [Good Review Paper](http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf)
-A review of the field written by leading scientists in the field Yann Lecun, Yoshua Bengio, and Geoffrey Hinton. 
+
+  A review of the field written by leading scientists in the field Yann Lecun, Yoshua Bengio, and Geoffrey Hinton. 
 
 
 
