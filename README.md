@@ -1,4 +1,4 @@
-# Computer-Vision-and-Machine-Learning-Wiki
+# Computer Vision and Machine Learning Wiki
 > Public Wiki for the Computer Vision and Machine Learning Group.
 
 ML has never been easier to get started with as a Computer Scientist due to the prevalence and availability of large datasets and GPU hardware. 
@@ -13,7 +13,7 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
 
 ## Demo Code
 
-- [Using Tensorflow 2.0 to train an MLP image classifier for images of hand written digits.](./code/TF2-MNIST-Classifier.ipynb)
+- [Using Tensorflow 2.0 to train an MLP image classifier for images of handwritten digits.](./code/TF2-MNIST-Classifier.ipynb)
 
 
 
