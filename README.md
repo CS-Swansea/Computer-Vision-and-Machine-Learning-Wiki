@@ -34,6 +34,10 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
   - [Programming Resources.md](./Programming%20Resources.md) 
   
     How to setup and configure the software, languages, packages, and environment to do ML research.
+    
+  - [Jupyter Notebook Cheatsheet.d](./Jupyter%20Notebook%20Cheatsheet.md)
+  
+    A list of the most useful shortcuts in Jupyter Notebook and Jupyter Lab.
   
   - [Datasets.md](./Datasets.md) 
   
