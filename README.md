@@ -16,7 +16,6 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
 - [Using Tensorflow 2.0 to train an MLP image classifier for images of handwritten digits.](./code/TF2-MNIST-Classifier.ipynb)
 
 
-
 ## Index
 
 - [README.md](./README.md) 
@@ -34,6 +33,14 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
   - [Programming Resources.md](./Programming%20Resources.md) 
   
     How to setup and configure the software, languages, packages, and environment to do ML research.
+    
+  - [Jetson TX2.md](./Jetson%20TX2.md)
+    
+    Steps for installing and building useful software for use on NVidia Jetson TX2 devices.
+    
+  - [Jupyter Notebook Cheatsheet.d](./Jupyter%20Notebook%20Cheatsheet.md)
+  
+    A list of the most useful shortcuts in Jupyter Notebook and Jupyter Lab.
   
   - [Datasets.md](./Datasets.md) 
   

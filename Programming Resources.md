@@ -144,12 +144,12 @@ Code and tutorials that you find online for older versions of Tensorflow will lo
   - If you do **not** have an NVidia GPU.
 
     ```bash
-    pip install tensorflow==2.0.0-alpha0 
+    pip install tensorflow
     ```
 
   - If you have an NVidia GPU and have followed the previous step to install CUDA 10.0 (exactly) and CUDNN 7.4.1 (or greater).
 
     ```bash
-    pip install tensorflow-gpu==2.0.0-alpha0
+    pip install tensorflow-gpu
     ```
 
