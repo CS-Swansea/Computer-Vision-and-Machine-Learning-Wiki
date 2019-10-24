@@ -34,7 +34,7 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
   
     How to setup and configure the software, languages, packages, and environment to do ML research.
     
-  - [Jetson TX2.md](./Programming%20Jetson%20TX2.md)
+  - [Jetson TX2.md](./Jetson%20TX2.md)
     
     Steps for installing and building useful software for use on NVidia Jetson TX2 devices.
     
