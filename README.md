@@ -3,7 +3,7 @@
 
 ML has never been easier to get started with as a Computer Scientist due to the prevalence and availability of large datasets and GPU hardware. 
 
-A surge in comercial and academic interest in the field of machine learning has spawned a plethora of frameworks such as Tensorflow that perform a lot of the heavy lifting for us with respect to implementing ML algorithms. 
+A surge in commercial and academic interest in the field of machine learning has spawned a plethora of frameworks such as Tensorflow that perform a lot of the heavy lifting for us with respect to implementing ML algorithms. 
 
 Without a proper understanding of the theory behind ML algorithms, debugging models derived from existing work, designing new models, and tuning their performance becomes an operation on a "black box". In order to be successful in ML research you must strive to gain a deeper understanding into how and why the ML algorithms we have work the way they do, and through this gain intuition into how we should build and improve upon these methods.
 
