@@ -38,7 +38,7 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
     
     Steps for installing and building useful software for use on NVidia Jetson TX2 devices.
     
-  - [Jupyter Notebook Cheatsheet.d](./Jupyter%20Notebook%20Cheatsheet.md)
+  - [Jupyter Notebook Cheatsheet.md](./Jupyter%20Notebook%20Cheatsheet.md)
   
     A list of the most useful shortcuts in Jupyter Notebook and Jupyter Lab.
   
