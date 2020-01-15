@@ -26,7 +26,7 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
   
     A tutorial in finding literature and academic papers online without getting stuck behind a journal paywall. 
   
-  - [Thesis Templates and Academic Writing Tutorial](./thesis-templates/README.md) 
+  - [Thesis Templates and Academic Writing Tutorial](./thesis-templates/) 
   
     A consistently styled set of thesis templates structured in LaTeX, Google Docs, and MS Word. These documents also serve as a written tutorial on document structuring, best practices, and proper citation and attribution of external works.   
   
