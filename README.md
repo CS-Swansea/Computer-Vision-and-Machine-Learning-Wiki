@@ -26,6 +26,10 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
   
     A tutorial in finding literature and academic papers online without getting stuck behind a journal paywall. 
   
+  - [Thesis Templates and Academic Writing Tutorial](./thesis-templates/README.md) 
+  
+    A consistently styled set of thesis templates structured in LaTeX, Google Docs, and MS Word. These documents also serve as a written tutorial on document structuring, best practices, and proper citation and attribution of external works.   
+  
   - [Recommended Literature.md](./Recommended%20Literature.md) 
   
     A list academic papers and literature pertaining to machine learning research that should be considered **required reading** for all students starting ML projects.
