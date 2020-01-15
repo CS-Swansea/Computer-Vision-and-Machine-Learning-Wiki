@@ -2,6 +2,8 @@
 
 This page contains a thesis template implemented in LaTeX based on the Custard document template. For simplicity we have also prepared documents in Google Docs and MS Word which mimic the styling of the LaTeX theme.
 
+- [LaTeX Template](https://github.com/CS-Swansea/Computer-Vision-and-Machine-Learning-Wiki/tree/master/thesis-templates/LaTeX)
+
 - [Google Docs Template](https://docs.google.com/document/d/1TiyNgC6-QlDFaqPjaZeMsKPVDIw_NGBD3DClTHMksU8/edit?usp=sharing)
 
   This document is public but read only, you should create a local copy of the document on your own Google Docs account to modify it. 
