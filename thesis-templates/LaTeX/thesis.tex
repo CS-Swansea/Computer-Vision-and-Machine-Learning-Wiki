@@ -1,0 +1,101 @@
+% Two sided means the left and right margins are different sizes and they alternate every page. 
+% If your document is printed to be book or spiral bound this allows for a thick spine to not 
+% eat into the space for your page content. 
+\documentclass[11pt, a4paper, twoside, openright]{custard}
+
+% All imports, packages, and configuration in here. 
+% Your document should be about content so we abstract away the styling rules and tools we are using. 
+\input{customisation}
+
+\begin{document}
+	
+% The custom data for Swansea University and your degree name.
+% The \protect\\ command forces a new line in the title which might be otherwise overriden by the template
+	\title{Gradient Descent by Grad Student}
+	\author{Philip J. Fry}
+	\awardinginst{Swansea University}
+	
+% Comment / uncomment your degree type as needed.
+	%\degree{Bachelor of Science} 
+	\degree{Master of Science}
+	%\degree{Doctor of Philosophy}
+	
+% Institution details and logo
+	\department{Department of Computer Science}
+	\university{Swansea University}
+	\unilogo{graphics/swansea.png}
+	
+% Hard code the date or allow the LaTeX compiler to fill it in whenever you recompile the document.
+	\date{\today}
+	
+% Build the title and declaration pages, and pad the document so the text starts on a right hand book page.
+% Page numbering is in roman numerals until the first page of an actual chapter which resets numbers 
+% starting from 1 at that point. 
+	\frontmatter%
+	\maketitle
+	\declaration
+	\cleardoublepage
+	
+% Most books and theses have a brief foreword or dedication. 
+	\begin{vplace}[0.7]
+		\begin{large}
+			\begin{center}
+				\textit{I would like to dedicate this work to the Hypnotoad.\\All glory to the Hypnotoad.}
+			\end{center}
+		\end{large}
+	\end{vplace}
+
+% Abstract comes before the contents page.	
+	\begin{abstract}
+		\vspace{-2em}
+		\setcounter{page}{1}
+		
+		In your abstract you should aim to summarize the core contributions of your work in the context of the problem domain. Start by outlining the domain and the problems posed within it. Discuss how the methods you focus on approach the relevant problems. You should end your abstract by concretely stating the tangible outputs and deliverables you have created in order to complete your work on this document, and whether those outputs represent and improvement or alternative approach to existing methods. 
+		
+		Your abstract should be a couple or so paragraphs long, and roughly approximate the order and flow you then use for structuring the main document. If a viewer has read your abstract then they should already understand at a high level what it is you have created and delivered, and whether it is better than or comparable to existing methods. If your project is driven by a research hypothesis then the reader should know what that is at a high level from this section. Reading on, little should surprise the viewer.
+		
+		For paper submission of your thesis you should physically sign your name on each of the above declaration statements and date them in black ink. For digital submissions you should sign and date them digitally using a touch or stylus input if available. There are pieces of software that allow you to write directly on PDF documents, or alternatively you can bring a signature into your document as a figure with a transparent or white background. If you do not have a stylus input / tablet like device you should ask your supervisor, as many in the department do their grading / work on digital tablets.
+	\end{abstract}
+	
+% A long form dedication. 
+	\begin{Acknowledgements}
+		This is an opportunity to acknowledge and thank those who have supported you throughout your studies. Friends and colleagues who you have studied alongside, your families, and your mentors within the department are the usual suspects. 
+	\end{Acknowledgements}
+	
+% Build the table of contents page.
+	\tableofcontents*
+	 
+% Optionally you can make a bank of known acronyms in acronyms.tex that you can call on throughout your document.
+	%\input{acronyms} 
+	
+% For long documents like a Doctoral thesis you should include a list of tables and figures throughout 
+% your document. This is uses a shortened version of each table and figures caption and enumerates all 
+% of them with their table or figure number. This is automatic, you do not need to modfy it if you do use it.
+	\input{list_of_tables_and_figures} 
+	
+% Reset numeric page numbering from page 1
+	\mainmatter%
+
+% Insert the code for each of your chapters
+	\input{./chapter/thesis_intro}
+	\input{./chapter/thesis_resources}
+	\input{./chapter/thesis_typesetting}
+	\input{./chapter/thesis_conclusion}
+	
+% Formatting citations properly when they are rendering incorrectly in your PDF can be fiddly,
+% espectially when punctuation and international characters are involed. Sometimes multiple re-compilations
+% are needed in addition to clearing temporary auxiliary files to see your changes in your document.
+% Insert the bibliography using citations contained in the file citations.bib
+	\bibintoc%
+	\bibliography{citations} 
+	
+% In the appendix you might include a full code listing for an implemented algorithm that you showed a 
+% small chunk of in one of your chapters. If you have extra graphs for ablation style experiments you 
+% might enumerate them within the appendix and use \label{name} and \ref{name} to automatically insert 
+% the correct section locations when you talk about them in your chapters.
+% Within appendix.tex you should use chapters as the top level section dividers.
+	\appendix
+	\addappheadtotoc
+	\input{./chapter/appendix}
+	
+\end{document}

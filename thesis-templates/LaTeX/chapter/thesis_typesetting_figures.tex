@@ -1,0 +1,37 @@
+\section{Figures}
+	\label{sec:typesetting_figures}
+	
+	In this template figures are numbered starting with the current chapter number followed by a figure number that resets to 1 each new chapter. As you can see below, the first figure is labelled Figure \ref{fig:dragon} because we are in Chapter \ref{chap:typesetting}.
+	
+	Figures in LaTeX are defined using a \lstinline|\begin{figure}...\end{figure}| environment and often immediately begin rendering in centre aligned mode by calling \lstinline|\centering|. Listing \ref{lst:latex_figure} below shows the LaTeX code used to typeset figure \ref{fig:dragon}. Figures \ref{fig:example_2x1} and \ref{fig:example_2x2} are defined similarly and make additional use of the \lstinline|\subfloat| command to position multiple images within a single figure environment, each with their own automatically incremented labels and individual captions.
+
+	\lstinputlisting[label={lst:latex_figure}, caption={An example LaTeX excerpt demonstrating how to typeset figure \ref{fig:dragon} with a simple caption.}]{./listings/example_figure.tex}
+
+	\subsection{Consistent presentation throughout the document}
+		Figures work best in a document when you use a consistent style for formatting and captioning them and make sure that figures always actively support the content of the main text. 
+	
+	\subsection{Justified use of space in the document}
+		All figures must be referred to directly in the main text of the document and discussed with meaningful and in depth critical analysis. If you don't need to use the figure to leverage and support your discussion then it is just taking up space and padding out the document. For example, you can use a command like \lstinline|\ref{fig:dragon}| to automatically get the figure number for Figure \ref{fig:dragon}. 	
+		
+		\input{./graphics/example_figure}
+		
+	\subsection{Placement that supports and enhances the flow of the document}
+		All figures shown in your document should be displayed in relevant locations, ideally just after that have been alluded to in the main text. Although there are many times where it is best to force a figure to the top or bottom of a nearby page.
+	
+	\subsection{Avoid directly importing other peoples images}
+		You should avoid using other peoples figures whenever possible, and instead create your own figures for visualizing the specific methods and data you are working with in a way directly relevant to your project. 
+	
+	\subsection{Format sub-figures in LaTeX, not in the image itself}
+		Construct sub-figures from multiple image files in LaTeX not in the image file itself. This allows you to tweak the positioning and layout without having to modify the images. It also allows for automatic formatting and numbering of captions and sub-captions. Figures \ref{fig:example_2x1} and \ref{fig:example_2x2} show examples of side-by-side and quad layouts respectively.
+		
+		\input{./graphics/example_2x1_figure}
+		
+		\input{./graphics/example_2x2_figure}
+	
+	\subsection{Robust captions that can stand in isolation}
+		Figures need to be captioned such that they can be viewed in isolation and still be meaningful to the viewer. There will likely be some duplication of information that is written in the main text, but this is intended. 
+	
+	\subsection{Proper attribution and citation of images}
+		\label{sec:typesetting_figures_citation}
+		
+		If an image does not belong to you it \textbf{must} be cited directly in the figure caption. \textbf{It is not correct to put a URL in the figure caption directly.} A URL in isolation is not an accurate or reliable way of directing a future reader to the exact content you are referencing. Instead make a new entry in your \lstinline|citations.bib| file and then reference that citation in the caption using the \lstinline|\cite{key}| command. Figures \ref{fig:dragon}, \ref{fig:example_2x1}, and \ref{fig:example_2x2} each include a statement in the caption stating ``Image of glass dragons rendered using Path Tracing \cite{whittle15_dragons}.''. When adding the BibTeX entry, try to find the proper information about the original author and source document to strengthen the citation in case the URL changes. 

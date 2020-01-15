@@ -1,0 +1,23 @@
+% It's often a good idea to generate the LaTeX code for tables (python script or similar) so that if you rerun your code you don't have to typeset your results again by hand!
+\begin{table}[H]
+	\centering
+	\scriptsize
+	\caption[A demonstration of a table typeset in LaTeX.]{An example of a table formatted with caption.}
+	
+	% Tune the following two values that are being multiplied by the variable \textwidth
+	% to control how large the scale of the table is, and how much is is squashed back 
+	% to the final size.	
+	\resizebox{0.8\textwidth}{!}{
+		\begin{tabularx}{0.46\textwidth}{c|c|c|c|c|c}
+			\toprule
+			Some & Relevant & Fields & From & Your & Data\\
+			\midrule
+			0 & 0 & 0 & 0 & 0 & 0\\
+			1 & 1 & 1 & 1 & 1 & 1\\
+			2 & 2 & 2 & 2 & 2 & 2\\
+			\bottomrule
+		\end{tabularx}
+		\label{tbl:example_table}
+	}
+\end{table}
+

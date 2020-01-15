@@ -1,0 +1,34 @@
+\chapter{Typesetting your thesis}
+	\label{chap:typesetting}
+	
+	This document is intended as both a LaTeX thesis template and as a tutorial on structuring and typesetting your thesis in the LaTeX programming language.
+	
+	The following are some powerful online resources for learning about LaTeX:
+	
+	\begin{description}	
+			
+		\item[$\bullet$ Overleaf Documentation for LaTeX]\hfill
+		
+		Overleaf \cite{overleafdocs} is an online browser-based LaTeX IDE which stores your document in the cloud and provides live recompilation as you type. The documentation on Overleaf's website has a good knowledge base of examples for how to typeset things cleanly and simply in LaTeX code. 
+		
+		\noindent See: {\small \url{https://www.overleaf.com/learn}}
+		
+		\item[$\bullet$ TeX StackExchange, the StackOverflow site dedicated to TeX questions]\hfill
+		
+		TeX StackExchange \cite{texstackexchange} is sub-community of the StackOverflow network dedicated to questions about the TeX family of typesetting tools including LaTeX, BibTeX and others. A vast majority of the time it is unlikely that the question or issue you are facing is one that has not been encountered before, and this site more than likely to be able to point you in the correct direction. 
+		
+		\noindent See: {\small \url{https://tex.stackexchange.com}}
+		
+	\end{description}
+	
+	\section{Referencing items within this document}
+		In section \ref{sec:resources_bibtex} we saw examples of how to typeset citations for resources we had stored in an external BibTeX file. However, often we would like to accurately refer to the location of a resource or region of text stored somewhere else within this document\footnote{Like at the beginning of the last sentence when we referred to section \ref{sec:resources_bibtex}.}. To do this we need to annotate our LaTeX code with \lstinline|\label{key}| statements which will take on the numeric (or otherwise formatted) identifier for the current chapter, section, figure, table, equation, ect where they are directly defined. To insert an inline reference to the label you can use the \lstinline|\ref{key}| command which works similarly to the \lstinline|\cite{key}| used for external references. In the event we chose to reorder or add additional content to the document, which would change the section numbering, the document will still compile to a pdf with the correct references inserted for each \lstinline|\ref{key}| command.
+		
+	\input{./chapter/thesis_typesetting_equations}
+		
+	\input{./chapter/thesis_typesetting_figures}
+	
+	\input{./chapter/thesis_typesetting_listings}
+	
+	\input{./chapter/thesis_typesetting_tables}
+	

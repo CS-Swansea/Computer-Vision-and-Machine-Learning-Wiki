@@ -1,0 +1,39 @@
+\chapter{Finding and citing resources}
+	\label{chap:resources}
+		
+	The university has subscriptions to a vast number of major academic journals spanning a wide range of subject areas. By accessing the internet from a university network connection (Eduroam or Ethernet), the paywalls of many journals will simply vanish without any need for login credentials.
+
+	\section{Tunnel your internet connection via the university internet}
+		When you are working from outside of the university then connecting to an on campus machine via remote desktop (RemoteDesktopProtocol, TeamViewer, ect) or via port forwarding (ssh, ssh tunnel, ect) can allow you to access papers that would otherwise be behind a paywall. 
+		
+		If you do not have individual access to a machine that is exposed for ssh on the university network you can always use the computers in Linux Lab CF204\footnote{One caveat of using computer lab machines for remote tunnelling is that a environmentally conscious student who has worked late in the computer lab might choose to switch off the machine you were using...} for the purpose of setting up an ssh port tunnel to proxy your internet through. These machines have fixed IPv4 addresses and respond to ssh using your student account credentials. While in use your internet will be routed\footnote{Painfully slowly.} to the university and then out to the internet, granting you transparent access to journals without a paywall.
+
+	\section{Practice your Google Fu}
+		\label{sec:google_fu}
+		The internet is big \cite{sizeofinternet}. Knowing how to phrase a question to a search engine is therefore an invaluable skill. If the request is simple enough, even a poorly structured query will likely return usable results. For more difficult to find resources you can leverage the language of the search engine to gather relevant papers and resources for your research more efficiently. 
+		
+		% An example of how to center a passage of text, control local fontsize, 
+		% and create a properly formatted and clickable URL.
+		\begin{center}
+		{\small \url{https://www.gwern.net/Search}}
+		\end{center}
+		
+		``Internet Search Tips'' \cite{gwern} provides an excellent review of methods and tips for scouring the internet for hard to find resources. You will also be less likely to get caught behind journal paywalls when working remotely without a tunnel as your queries can be made to look for raw pdfs that are often released by the authors directly.
+			
+	\section{Organizing your citations in BibTeX}
+		\label{sec:resources_bibtex}
+	
+		BibTeX is a language for specifying resource citations. Every time you access and read an academic paper, take code from an online repository, or source the media such as images from existing works you should create a BibTeX entry in a file that you keep throughout your research. Software such as Mendeley \cite{mendeley} can help automate the process of building your BibTeX library of citations. 
+		
+		\lstinputlisting[label={lst:bibtex}, caption={An example BibTeX entry for an academic paper published in conference proceedings \cite{kaj86}.}]{./listings/example_bibtex.bib}
+		
+		The BibTeX code listing above (listing \ref{lst:bibtex}) shows an example of how to cite an academic paper, in this case one of the central papers in Computer Graphics research. The key \textbf{kaj86} is an arbitrary name chosen as a meaningful identifier for the resource. In the document text we can call on this resource as an inline citation using the LaTeX command \lstinline|\cite{kaj86}| which produces \cite{kaj86} at the location it is called. As long as a citation has been used at least once somewhere within the document then a formatted full citation will be created in the bibliography at the end of the document with the same citation number that is shown inline.
+		
+		It is considerably easier to be disciplined in methodically taking note of the resources you access and make use of as you access them, than it is to try and hunt them all down again at the time you need to write about them in your document. Invest time in being organized and consistent up front and it will be easier when you come to write up.
+		
+	\section{Properly using and formatting citations within the text}
+		Usually you would not put the URL of the resource you are citing directly in the text like is done previously in section \ref{sec:google_fu}. The citation for the resource \cite{gwern} is sufficient to reference it within the text given that full details of its location are then kept neatly within the bibliography at the end of the document. 
+		
+		In normal usage the purpose of a citation is not to direct the reader away from your thesis, but to justify and back up assertions you are making about the state of the domain. If a reader questions your assertions then they can follow the rabbit hole of papers which will likely also make and justify assertions with even earlier papers from the literature. 
+		
+		In the above case the intention is for the reader of this template to actually go to that resource and read what it has to say directly. The link is therefore shown clearly within the main text to indicate that the reader should visit it. This as opposed to wanting the reader to purely acknowledge that the facts which are within the resource legitimize the points made in this document, in which case a simple inline citation is the best way to back up your assertions. Section \ref{sec:typesetting_figures_citation} specifically touches on the best practice for how to cite images which you are importing from existing work. 

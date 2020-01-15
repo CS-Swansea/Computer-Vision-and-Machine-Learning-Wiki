@@ -1,0 +1,14 @@
+\section{Code Listings}
+	\label{sec:typesetting_listings}
+	
+	Code listings should be formatted in the same style as figures. It is important to use a monospace font so that characters line up vertically. Syntax highlighting is also extremely important for effectively displaying complicated code segments.  
+	
+	% Longform Code listings should live in a code file, not embedded directly into your LaTeX code!
+	\lstinputlisting[language={c}, label={lst:c_hello_world}, caption={An implementation of an important algorithm from our work.}]{./listings/hello_world.c}
+	
+	In LaTeX the ``Listings'' package can be used to properly format code and provide basic syntax highlighting, line numbering, and captioning of embedded code excerpts. Listing \ref{lst:listings} shows examples of how to properly format code using the listings package. 
+	
+	\newpage
+	
+	% Longform Code listings should live in a code file, not embedded directly into your LaTeX code!
+	\lstinputlisting[label={lst:listings}, caption={Examples of methods for typesetting code listings within a LaTeX document.}]{./listings/listings.tex}

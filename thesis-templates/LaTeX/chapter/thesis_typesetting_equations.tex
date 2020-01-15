@@ -1,0 +1,48 @@
+\section{Equations}
+	\label{sec:typesetting_equations}
+	
+	Typesetting equations is one of the things that LaTeX does best. It has packages for different fonts and symbols for many different mathematical notations. However, to person learning how to typeset in LaTeX for the first time it can be a daunting and unwieldy user experience. Almost all LaTeX packages have documentation available in pdf format online, and documentation for packages specifically relating to fonts and symbols usually have tables enumerating the names and codes for all of the fonts symbols, organized by intended usage. 
+	
+	\subsection{Inline equations}
+	
+	Small equations like $x = 0$ can be written directly within the text by using LaTeX's maths mode shorthand controlled by dollar signs \lstinline|$ math mode $|. As long as it is not becoming cumbersome to the reader, equations such as $\mathbb{P}({A} \cap {B}) = \mathbb{P}({B} \cap {A})$ are quite neatly displayed in this fashion. 
+	
+	\subsection{Block equations}
+	
+		For long equations it is best to provide a break in the main text of the document and format the equation using a \lstinline|\begin{equation}...\end{equation}| environment. 
+		
+		\begin{equation} \label{eq:veclen}
+			\left\lvert a \right\rvert = \left\lvert \left[\begin{array}{c} a_0\\ a_1\\ \vdots\\ a_n\end{array}\right] \right\rvert = \sqrt{a_0^2 + a_1^2 + \hdots + a_n^2}
+		\end{equation}
+		
+		Equation \ref{eq:veclen} demonstrates formatting a larger equation and uses an \lstinline|\begin{array}...\end{array}| environment to structure a column vector of sub-equations. Block equations should be located at a relevant point directly as they are being referred to in the text. When referred to from other locations in the document you should use the \lstinline|\ref{key}| command to insert the correct equation number.
+		
+		\subsubsection{Aligning multi-line block equations}
+		
+			When equations become even larger they may need cross over multiple new lines. When this happens it is desirable to align relevant parts of the equation on each line to one another for aesthetic reasons and to help imply structure to the reader. 
+		
+			\begin{equation} \label{eq:rendering_equation}
+				\begin{split}
+					\mathcal{L}_o\left(x, \omega_o, \lambda, t\right) &= \mathcal{L}_e\left(x, \omega_o, \lambda, t\right)\\
+					&+ \int_\Omega f\left(x, \omega_i, \omega_o, \lambda, t\right) \mathcal{L}_i\left(x, \omega_i, \lambda, t\right) \left(\omega_i \bullet n\right) d\omega_i\\
+					&\text{where} \quad \mathcal{L}_i\left(x, \omega_i, \lambda, t\right) = \mathcal{L}_o\left(x^\prime, -\omega_i, \lambda, t\right)\\
+				\end{split}
+			\end{equation}
+			
+			Equation \ref{eq:rendering_equation}, known as Kajiya's Rendering Equation \cite{kaj86} demonstrates the use of the \lstinline|\begin{split}...\end{split}| environment which uses a single un-escaped \& symbol placed on each line of the equations LaTeX code to indicate where each line should be co-aligned. In this example the \&'s were placed on the =, +, and w (in where) characters.
+			
+	\subsection{A masochistic approach to learning to typeset mathematics in LaTeX}
+	
+		\input{./graphics/texnique}
+		
+		TeXnique \cite{texnique} is web-browser based game for practising how to typeset equations in LaTeX. The game will present you with a rendered equation and your task is to type LaTeX code into the box below it such that your code produces the same (or closely matching / pixel equivalent) rendered equation. Figure \ref{fig:texnique} shows the game during play, the bottom rendered equation is bordered in green to indicate it is a valid match with the target. 
+
+		% An example of how to center a passage of text, control local fontsize, 
+		% and create a properly formatted and clickable URL.
+		\begin{center}
+		{\small \url{https://texnique.xyz}}
+		\end{center}
+		
+		This is one of the more painful parts of typesetting a document, so it really takes a special kind of sadism to come up with such a game. Least to say, graduate students and researchers can be an odd bunch, and when we found this it was surprisingly addictive to compete over. 
+		
+		

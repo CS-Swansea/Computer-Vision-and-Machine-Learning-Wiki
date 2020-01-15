@@ -1,0 +1,125 @@
+%% Here you can specify new commands and environments that you intend
+%% to use. Using commands can make your document easier to write, read
+%% and be more consistent.
+
+\usepackage[linesnumbered,ruled]{algorithm2e}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\usepackage{appendix}
+\usepackage{textcomp}
+\usepackage{setspace}
+%\usepackage[document]{ragged2e}
+\usepackage{verbatim}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\sloppy
+\usepackage{graphicx}
+\usepackage{threeparttable}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{cite}
+\usepackage[export]{adjustbox}
+\usepackage{algorithmic}
+\usepackage[nohyperlinks,printonlyused]{acronym}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{times}
+\usepackage{amssymb}
+\usepackage{hhline}
+\usepackage{color}
+\usepackage{soul}
+\usepackage{colortbl}
+\definecolor{Gray}{gray}{0.85}
+\usepackage{rotating}
+\usepackage{fix2col}
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+\usepackage{stmaryrd}
+\usepackage[export]{adjustbox}
+\usepackage{bbm}
+\usepackage{relsize}
+\usepackage{xfrac}
+\usepackage{bibentry}
+
+%\usepackage{refcheck}
+
+%watermarking
+\usepackage[english]{babel}
+\usepackage{tikz}
+
+%% Uncomment the following line for hyper links - not recommended for printing
+\usepackage[colorlinks, linkcolor=, anchorcolor=, citecolor=, filecolor=, menucolor=, runcolor=, urlcolor=]{hyperref}
+
+\setcounter{tocdepth}{1}
+%\setcounter{minitocdepth}{3} 
+\linespread{1.31}
+
+\newcommand\litem[1]{\item{\bfseries #1:\enspace}}
+
+\interdisplaylinepenalty=2500
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\setlength{\LTpre}{-10pt}\setlength{\LTpost}{-30pt}%
+\newcommand{\oiint}{\begin{picture}(0,0)(-10,-2)\put(0,0){\oval(12,8)}\end{picture}\iint}
+\renewcommand{\mathbf }{\boldsymbol}
+
+\def \eg{e.g.\ } % Allows you to write \eg in LaTeX instead of typing e.g. so that every single one will be formatted the same.
+\def \Eg{E.g.\ } % Define some other common variants. If you later want to change one of these definitions, 
+\def \ie{i.e.\ } % it will update all the usages throughout the document.
+\def \Dr{Dr.\ }
+\def \vs{vs. }
+\def \etal{\emph{et al.\ }} 
+\def \sota{state-of-the-art }
+\def \handcrafted{hand-crafted }
+
+\usepackage{listings,lstautogobble}
+\usepackage{sourcecodepro}
+\pdfmapfile{=SourceCodePro.map}
+\lstset{
+	xleftmargin=0.5cm,frame=tlbr,framesep=4pt,framerule=0.5pt,
+	language=,
+	upquote=true,
+	columns=fixed,
+	tabsize=2,
+	extendedchars=true,
+	breaklines=true,
+	numbers=left,
+	numbersep=10pt,
+	basicstyle=\ttfamily\scriptsize,
+	numberstyle=\tiny,
+	stringstyle=\ttfamily,
+	captionpos=b,
+	showstringspaces=false,
+	autogobble=true
+}
+
+\usepackage[font=small,skip=10pt]{caption} %,format=hang
+%\usepackage[labelformat=simple]{subcaption}
+\usepackage[labelformat=simple]{subfig}
+%\captionsetup[figure]{format=hang}
+%\captionsetup[lstlisting]{format=hang}
+\renewcommand{\thesubfigure}{\Alph{subfigure}.}
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+% Use IEEEtran citation style. 
+\bibliographystyle{IEEEtran} 
+
+\def\samplefont#1{%
+    % set font style and save name
+    #1\edef\savedname{\fontname\font}%
+    % print small sample
+    {\leavevmode\tt\hbox to 1in{\savedname:\hss}}%
+    abcxyz ABCXYZ 123\par
+}

@@ -1,0 +1,18 @@
+% The lstinline command can be used to insert monospace formatted code directly 
+% inline within the documents main text. You can optionally specify a programming
+% language to enable syntax highlighting. 
+\lstinline|the_code|
+\lstinline[language={the_language}]|the_code|
+
+% The lstinputlisting command is used to insert an external file containing 
+% code into the document formatted in the same manner as a figure or table. 
+% All stand alone listings should have a label and caption. You can optionally
+% specify a programming language to enable syntax highlighting. 
+\lstinputlisting[label={lst:my_label_name}, caption={The caption.}]{the_file}
+\lstinputlisting[language={the_language}, label={lst:the_label}, caption={The caption.}]{the_file}
+
+% An example showing how Listing 3.1 is formatted in LaTeX code. 
+% The C code is stored in its own file as C code, allowing it to be modified
+% and prepared separately using a dedicated code IDE to ensure correctness and 
+% proper formatting. 
+\lstinputlisting[language={c}, label={lst:c_hello_world}, caption={An implementation of an important algorithm from our work.}]{./listings/hello_world.c}
