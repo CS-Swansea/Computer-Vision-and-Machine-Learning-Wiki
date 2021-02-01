@@ -9,7 +9,7 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
 
 ------
 
-## Discussion Groups
+## Discussion Groups
 
 We have three groups where the CS Vision research-group comes together formally to exchange ideas.
 
