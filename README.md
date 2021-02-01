@@ -13,11 +13,11 @@ Without a proper understanding of the theory behind ML algorithms, debugging mod
 
 We have three groups where the CS Vision research-group comes together formally to exchange ideas.
 
-- [**Journal Club**](./Journal%20Club.md), where once or twice a month the Group congregates to hear a presentation on some topic.
+- [**Journal Club**](./Journal%20Club%20Schedule.md), where once or twice a month the Group congregates to hear a presentation on some topic.
 
-- [**Reading Group**](./Reading%20Group.md), where every two weeks we read a chapter of a book.
+- [**Reading Group**](./Reading%20Group%20Schedule.md), where every two weeks we read a chapter of a book.
 
-- [**Algorithm Club**](./Algorithm%20Club.md), where we discuss a fundamental algorithm in machine learning or some new, novel technique in the news.
+- [**Algorithm Club**](./Algorithm%20Club%20Schedule.md), where we discuss a fundamental algorithm in machine learning or some new, novel technique in the news.
 
 
 ## Demo Code
