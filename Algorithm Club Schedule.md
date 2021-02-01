@@ -9,7 +9,7 @@ Every month at Algorithm Club, [our postgraduate students](http://csvision.swans
 * Spatial transformer networks.
 * Graph convolution (for beginners), including a look at AlexNet.
 
-## Schedule
+## Schedule
 
 |Date|Time|Topic|
 |:---|:---|:----|
