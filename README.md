@@ -1,14 +1,23 @@
 # Computer Vision and Machine Learning Wiki
-> Public Wiki for the Computer Vision and Machine Learning Group.
+> The Public Wiki of the Computer Vision and Machine Learning Group.
 
 ML has never been easier to get started with as a Computer Scientist due to the prevalence and availability of large datasets and GPU hardware. 
 
 A surge in commercial and academic interest in the field of machine learning has spawned a plethora of frameworks such as Tensorflow that perform a lot of the heavy lifting for us with respect to implementing ML algorithms. 
 
-Without a proper understanding of the theory behind ML algorithms, debugging models derived from existing work, designing new models, and tuning their performance becomes an operation on a "black box". In order to be successful in ML research you must strive to gain a deeper understanding into how and why the ML algorithms we have work the way they do, and through this gain intuition into how we should build and improve upon these methods.
+Without a proper understanding of the theory behind ML algorithms, debugging models derived from existing work, designing new models, and tuning their performance becomes an operation on a black box. In order to be successful in ML research you must strive to gain a deeper understanding into how and why the ML algorithms we have work the way they do, and through this gain intuition into how we should build and improve upon these methods.
 
 ------
 
+## Discussion Groups
+
+We have three groups where the CS Vision research-group comes together formally to exchange ideas.
+
+- [**Journal Club**](./Journal%20Club%20Schedule.md), where once or twice a month the Group congregates to hear a presentation on some topic.
+
+- [**Reading Group**](./Reading%20Group%20Schedule.md), where every two weeks we read a chapter of a book.
+
+- [**Algorithm Club**](./Algorithm%20Club%20Schedule.md), where we discuss a fundamental algorithm in machine learning or some new, novel technique in the news.
 
 
 ## Demo Code
