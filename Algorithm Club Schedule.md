@@ -1,4 +1,4 @@
-# The Al-Kwarizmi Algorithm Club
+# The Al-Khwarizmi Algorithm Club
 
 Every month at Algorithm Club, [our postgraduate students](http://csvision.swansea.ac.uk/index.php?n=Site.People#pgr) pick some machine-learning model to study and discuss.
 
