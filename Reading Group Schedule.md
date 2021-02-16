@@ -8,5 +8,5 @@ We are current reading *Machine Learning: An Algorithmic Perspective* by Stephen
 
 |Date|Time|Chapter|
 |:---|:---|:------|
-18th February, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 3, by TBA.</li><li>Senior group: Chapter 10, presented by Michael Kenning and Felix Richards.</li></ul>
+18th February, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 3, by Suraj Ramchand and Alex Milne.</li><li>Senior group: Chapter 10, presented by Michael Kenning and Felix Richards.</li></ul>
 21st January, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 2, by Sophie Sadler, Yi Hu and Chen Hu ([presentation](https://docs.google.com/presentation/d/1bteGMVeEQnzLFxuIvBOfbDknzRZ-YqubQYUb7KhWMuY/edit?usp=sharing)).</li><li>Senior group: Chapter 10, presented by Hanchi Ren ([presentation](docs/Senior_Chapter10_Hans.pdf)) and Stavros Georgousis. [Gavin produced a Jupyter Notebook](code/Reading%20Group,%20Equation%2010.3.ipynb) to show that Equation 10.3. causes an evolutionary algorithm to converge.</li></ul>
