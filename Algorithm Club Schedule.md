@@ -14,4 +14,4 @@ Every month at Algorithm Club, [our postgraduate students](http://csvision.swans
 |Date|Time|Topic|
 |:---|:---|:----|
 4th March, 2021 | 09:30&ndash;10:30 | Graph convolution, presented by Stavros Georgousis and Michael Kenning. Consequent to [a survey of the state of the art and challenges](https://doi.org/10.1109/ACCESS.2021.3055280).
-4th February, 2021 | 09:30&ndash;10:30 | A discussion of [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) and the subsequent analysis of it [conducted by Zeiler and Fergus](https://arxiv.org/pdf/1311.2901v3.pdf).
+4th February, 2021 | 09:30&ndash;10:30 | A discussion of [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) and the subsequent analysis of it [conducted by Zeiler and Fergus](https://arxiv.org/pdf/1311.2901v3.pdf). The papers were presented by Alex Milne ([slides](docs/Algorithm%20Club/CNNs_Alex.pptx)).
