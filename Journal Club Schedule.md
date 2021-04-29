@@ -6,7 +6,7 @@ Once or twice a month our research group, [CS Vision](http://csvision.swansea.ac
 
 |Date|Time|Presenter|Venue|Topic|
 |:---|:---|:--------|-----|:----|
-6th May, 2021 | 09:30&ndash;10:00 | Hanchi Ren | Zoom | Federated learning
+*6th May, 2021* | 09:30&ndash;10:00 | Hanchi Ren | Zoom | Federated learning
 22nd April, 2021 | 09:30&ndash;10:30 | Gavin Tsang | Zoom | 1D-convolution-based feature importance ranking: identifying predictive sepsis indicators
 25th March, 2021 | 09:30&ndash;10:00 | Sophie Sadler | Zoom | Explainable community finding.
 11th March, 2021 | 11:00&ndash;12:00 | Hiuyu Zhou | Zoom | Dealing with uncertainty in image analysis
