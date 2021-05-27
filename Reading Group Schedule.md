@@ -1,6 +1,6 @@
 # Reading Group Schedule
 
-Every two weeks (normally), our Reading Group, consisting of [our postgraduate students](http://csvision.swansea.ac.uk/index.php?n=Site.People#pgr) discusses of a chapter of the currently assigned book. The two chosen students prepare presentations in advance; each has 15 minutes to present their summary. Thereafter the group discusses the chapter further. Occasionally we produce Jupyter Notebooks from these sessions. 
+Every month, our Reading Group, consisting of [our postgraduate students](http://csvision.swansea.ac.uk/index.php?n=Site.People#pgr) discusses of a chapter of the currently assigned book. The two chosen students prepare presentations in advance; each has 15 minutes to present their summary. Thereafter the group discusses the chapter further. Occasionally we produce Jupyter Notebooks from these sessions. 
 
 We are currently reading *Machine Learning: An Algorithmic Perspective* by Stephen Marsland. Our Reading Group is currently split in two: a Junior Group and a Senior Group.
 
@@ -8,7 +8,8 @@ We are currently reading *Machine Learning: An Algorithmic Perspective* by Steph
 
 |<div style="width:120px">Date</div>|<div style="width:80px">Time</div>|Chapter|
 |:---|:---|:------|
-*13th May, 2021* | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 6, by Sophie Sadler and Alex Milne.</li><li>Senior group: Chapter 14, by Stavros Georgousis and Hanchi Ren.</li></ul>
+10th June, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 7, by Yi Hu and TBA.</li><li>Senior group: Chapter 15, by TBA.</li></ul>
+13th May, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 6, by Sophie Sadler and Alex Milne.</li><li>Senior group: Chapter 14, by Stavros Georgousis and Hanchi Ren ([part 1](docs/Reading%20Group/Senior%20Group,%20Chapter%2014,%20Part%201,%20Hans.pdf), [part 2](docs/Reading%20Group/Senior%20Group,%20Chapter%2014,%20Part%202,%20Stavros.pdf)).</li></ul>
 15th April, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 5, by Floyd Hepburn and Luke Thomas.</li><li>Senior group: Chapter 13, by Majedaldein Almahasneh ([slides](docs/Reading%20Group/Senior%20Group,%20Chapter%2013,%20Part%201,%20Majed.pdf)) and Hassan Eshkiki ([slides](docs/Reading%20Group/Senior%20Group,%20Chapter%2013,%20Part%202,%20Hassan.pdf)).</li></ul>
 18th March, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 4, by Ben Lloyd-Roberts and Connor Clarkson ([slides](docs/Reading%20Group/Junior%20Group,%20Chapter%204,%20Connor%20and%20Ben.pdf)).</li><li>Senior group: Chapter 12, presented by Sachine Bahade and Gavin Tsang ([slides](docs/Reading%20Group/Senior%20Group,%20Chapter%2012,%20Part%202,%20Gavin.pdf)).</li></ul>
 18th February, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 3, by Suraj Ramchand ([slides](docs/Reading%20Group/Junior%20Group,%20Chapter%203,%20Part%201,%20Suraj.pptx)) and Alex Milne ([slides](docs/Reading%20Group/Junior%20Group,%20Chapter%203,%20Part%202,%20Alex.pptx)).</li><li>Senior group: Chapter 11, presented by Felix Richards ([slides](docs/Reading%20Group/Senior%20Group,%20Chapter%2011,%20Part%201,%20Felix.pdf)) and Michael Kenning ([slides](docs/Reading%20Group/Senior%20Group,%20Chapter%2011,%20Part%202,%20Michael.pdf)).</li></ul>
