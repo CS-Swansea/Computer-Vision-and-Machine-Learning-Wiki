@@ -4,11 +4,16 @@ Every month, our Reading Group, consisting of [our postgraduate students](http:/
 
 We are currently reading *Machine Learning: An Algorithmic Perspective* by Stephen Marsland. Our Reading Group is currently split in two: a Junior Group and a Senior Group.
 
+The next textbook we will be studying is Ian Goodfellow *et al.*'s *Deep Learning*.
+
 ## Schedule
 
 |<div style="width:120px">Date</div>|<div style="width:80px">Time</div>|Chapter|
 |:---|:---|:------|
-10th June, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 7, by Yi Hu and Chen Hu.</li><li>Senior group: Chapter 15, by Michael Kenning and Gavin Tsang.</li></ul>
+15th July, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 10, by TBA.</li><li>Senior group: Chapter 18, by TBA.</li></ul>
+8th July, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 9, by Ben Lloyd-Roberts and Connor Clarkson.</li><li>Senior group: Chapter 17, by TBA.</li></ul>
+17th June, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 8, by TBA.</li><li>Senior group: Chapter 16, by Hassan Eshkiki and Sachin Bahade.</li></ul>
+10th June, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 7, by Yi Hu and Chen Hu ([part 1](docs/Reading%20Group/Junior%20Group,%20Chapter%207,%20Part%201,%20Chen.pdf), [part 2](docs/Reading%20Group/Junior%20Group,%20Chapter%207,%20Part%202,%20Yi.pdf)).</li><li>Senior group: Chapter 15, by Michael Kenning and Gavin Tsang ([part 1](docs/Reading%20Group/Senior%20Group,%20Chapter%2015,%20Part%201,%20Michael.pdf), [part 2](docs/Reading%20Group/Senior%20Group,%20Chapter%2015,%20Part%202,%20Gavin.pdf)).</li></ul>
 13th May, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 6, by Sophie Sadler and Alex Milne ([part 1](docs/Reading%20Group/Junior%20Group,%20Chapter%206,%20Part%201,%20Sophie.pdf), [part 2](docs/Reading%20Group/Junior%20Group,%20Chapter%206,%20Part%202,%20Alex.pdf)).</li><li>Senior group: Chapter 14, by Stavros Georgousis and Hanchi Ren ([part 1](docs/Reading%20Group/Senior%20Group,%20Chapter%2014,%20Part%201,%20Hans.pdf), [part 2](docs/Reading%20Group/Senior%20Group,%20Chapter%2014,%20Part%202,%20Stavros.pdf)).</li></ul>
 15th April, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 5, by Floyd Hepburn and Luke Thomas ([part 1](docs/Reading%20Group/Junior%20Group,%20Chapter%204,%20Part%201,%20Luke.pdf)).</li><li>Senior group: Chapter 13, by Majedaldein Almahasneh ([slides](docs/Reading%20Group/Senior%20Group,%20Chapter%2013,%20Part%201,%20Majed.pdf)) and Hassan Eshkiki ([slides](docs/Reading%20Group/Senior%20Group,%20Chapter%2013,%20Part%202,%20Hassan.pdf)).</li></ul>
 18th March, 2021 | 09:30&ndash;10:30 | <ul><li>Junior group: Chapter 4, by Ben Lloyd-Roberts and Connor Clarkson ([slides](docs/Reading%20Group/Junior%20Group,%20Chapter%204,%20Connor%20and%20Ben.pdf)).</li><li>Senior group: Chapter 12, presented by Sachine Bahade and Gavin Tsang ([slides](docs/Reading%20Group/Senior%20Group,%20Chapter%2012,%20Part%202,%20Gavin.pdf)).</li></ul>
