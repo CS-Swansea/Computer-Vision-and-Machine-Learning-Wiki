@@ -1,2 +1,3 @@
-*/.ipynb_checkpoints/*
-*.whl
+.ipynb_checkpoints
+.DS_Store
+	
