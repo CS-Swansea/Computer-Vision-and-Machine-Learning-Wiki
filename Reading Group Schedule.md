@@ -11,6 +11,7 @@ Previous books:
 
 |<div style="width:160px">Date</div>|<div style="width:80px">Time</div>|Chapter|
 |:---|:---|:------|
+28th October, 2021 | 09:30&ndash;10:30 | *Deep Learning*, Chapter 6, by Yi Hu and Chen Hu.
 30th September, 2021 | 09:30&ndash;10:30 | *Deep Learning*, Introduction, by Hassan Eshkiki and Hanshi Ren ([part 1](docs/Reading%20Group/2021-22/Introduction,%20Part%201,%20Hans.pdf)).
 8th July, 2021 | 09:30&ndash;10:30 | *Machine Learning: An Algorithmic Perspective*<ul><li>Junior group: Chapter 9, by Ben Lloyd-Roberts and Connor Clarkson ([slides](docs/Reading%20Group/2020-21/Junior%20Group,%20Chapter%208,%20Connor%20and%20Ben.pdf)).</li><li>Senior group: Chapter 17, by Hanchi Ren and Sachin Bahade ([part 1](docs/Reading%20Group/2020-21/Senior%20Group,%20Chapter%2017,%20Part%201,%20Hans.pdf), [part 2](docs/Reading%20Group/2020-21/Senior%20Group,%20Chapter%2017,%20Part%202,%20Sachin.pdf)).</li></ul>
 17th June, 2021 | 09:30&ndash;10:30 | Senior group: Chapter 16, by Hassan Eshkiki and Sachin Bahade ([part 1](docs/Reading%20Group/2020-21/Senior%20Group,%20Chapter%2016,%20Part%201,%20Sachin.pdf), [part 2](docs/Reading%20Group/2020-21/Senior%20Group,%20Chapter%2016,%20Part%202,%20Hassan.pdf)).

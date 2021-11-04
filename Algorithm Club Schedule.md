@@ -13,7 +13,9 @@ Every month at Algorithm Club, [our postgraduate students](http://csvision.swans
 
 |<div style="width:120px">Date</div>|<div style="width:80px">Time</div>|Topic|
 |:---|:---|:----|
-September, 2021 | 09:30&ndash;10:30 | Interpretability and deep neural networks, presented by Stavros Georgousis.
+4th November, 2021 | 09:30&ndash;10:30 | [INVASE](https://openreview.net/pdf?id=BJg_roAcK7) by Fergus Pick.
+21st October, 2021 | 09:30&ndash;10:30 | [Intellectual property protection of neural networks](https://ieeexplore.ieee.org/document/9454280) by Hanchi Ren; and IP protection of neural networks using watermarking by Majedaldein Almahasneh.
+7th October, 2021 | 09:30&ndash;10:30 | [Explaining the machine learning model predictions](https://ieeexplore.ieee.org/abstract/document/9347612) by Stavros Georgousis.
 24th June, 2021 | 09:30&ndash;10:30 | Spatial transformer networks ([paper](https://proceedings.neurips.cc/paper/2015/file/33ceb07bf4eeb3da587e268d663aba1a-Paper.pdf), [*Towards Data Science* "review"](https://towardsdatascience.com/review-stn-spatial-transformer-network-image-classification-d3cbd98a70aa)), presented by Majedaldein Almahasneh ([slides](docs/Algorithm%20Club/6,%20Spatial%20Transformer%20Networks,%20Maj.pdf)).
 27th May, 2021 | 09:30&ndash;10:30 | Temporal convolutional networks, presented by Suraj Ramchand ([slides](docs/Algorithm%20Club/5,%20Temporal%20Convolution%20Neural%20Networks,%20Suraj.pptx)).
 29th April, 2021 | 09:30&ndash;10:30 | AlphaFold (the [AlphaFold paper](https://www.nature.com/articles/s41586-019-1923-7) and [the description of AlphaFold's entry into CASP13](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.25834) and [an abstract of AlphaFold2 for CASP14 (p. 22)](https://predictioncenter.org/casp14/doc/CASP14_Abstracts.pdf)), presented by Chen Hu ([slides](docs/Algorithm%20Club/4,%20AlphaFold,%20Chen.pdf)).

@@ -6,6 +6,7 @@ Once or twice a month our research group, [CS Vision](http://csvision.swansea.ac
 
 |Date|Time|Presenter|Venue|Topic|
 |:---|:---|:--------|-----|:----|
+14th October, 2021 | 09:30&ndash;10:00 | Michael Kenning | Zoom | A directed graph convolutional neural network for edge-structured signals in link-fault detection.
 1st July, 2021 | 09:30&ndash;10:00 | Alex Milne | Zoom | Work to date.
 3rd June, 2021 | 09:30&ndash;10:00 | Dongyuan Li | Zoom | Dynamic community detection algorithms.
 6th May, 2021 | 09:30&ndash;10:00 | Hanchi Ren | Zoom | GRNN: Generative regression neural network; a data leakage attack for federated learning.
